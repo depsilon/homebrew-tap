@@ -1,9 +1,9 @@
 class Shardloom < Formula
   desc "Vortex-first no-fallback local compute engine technical preview"
   homepage "https://shardloom.io"
-  url "https://github.com/depsilon/shardloom/releases/download/v0.2.1/shardloom-19e9a3da28be-source.tar.gz"
-  version "0.2.1"
-  sha256 "b8dca86a3dd3ebe72ae2a81444673811607a33eba5d0c7ab78ca03e8160598c4"
+  url "https://github.com/depsilon/shardloom/releases/download/v0.2.2/shardloom-3b5903672c38-source.tar.gz"
+  version "0.2.2"
+  sha256 "791270357492e85d90b2097cfd15aa7c6ef39f1e6c3de2cd195a7e6fb6563d56"
   license "Apache-2.0"
   head "https://github.com/depsilon/shardloom.git", branch: "main"
 

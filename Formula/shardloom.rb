@@ -1,9 +1,8 @@
 class Shardloom < Formula
   desc "Vortex-first no-fallback local compute engine technical preview"
   homepage "https://shardloom.io"
-  url "https://github.com/depsilon/shardloom/releases/download/v0.2.2/shardloom-3b5903672c38-source.tar.gz"
-  version "0.2.2"
-  sha256 "791270357492e85d90b2097cfd15aa7c6ef39f1e6c3de2cd195a7e6fb6563d56"
+  url "https://github.com/depsilon/shardloom/releases/download/v0.2.3/shardloom-79f1ad6d9634-source.tar.gz"
+  sha256 "77979e2ef5cae19841706612eb0da71dd4274d17165ef7a74f0fe83bfd6c6b6d"
   license "Apache-2.0"
   head "https://github.com/depsilon/shardloom.git", branch: "main"
 
@@ -14,6 +13,7 @@ class Shardloom < Formula
   end
 
   test do
+    assert_match "shardloom #{version}", shell_output("#{bin}/shardloom --version")
     assert_match "fallback execution: disabled", shell_output("#{bin}/shardloom status")
   end
 end

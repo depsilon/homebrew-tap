@@ -1,8 +1,8 @@
 class Shardloom < Formula
   desc "Unified data processing engine technical preview"
   homepage "https://shardloom.io"
-  url "https://github.com/depsilon/shardloom/releases/download/v1.1.0/shardloom-4d11d4e9c234-source.tar.gz"
-  sha256 "0bfaf34e69cf5462667e3494f19a0cedc9e47e5c77dffdcdda980e9cd1bae5d2"
+  url "https://github.com/depsilon/shardloom/releases/download/v1.3.0/shardloom-9c6b6f55e727-source.tar.gz"
+  sha256 "41bf90afd0e5e870fce9afc060b2c895c2c0fa1f966b43214e447a6222b50e53"
   license "Apache-2.0"
   head "https://github.com/depsilon/shardloom.git", branch: "main"
 
